@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { PaymentLinkRequest, PaymentLinkResponse, PaymentDetails } from '../types/payment';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'privado-back-production.up.railway.app/api';
 
 export const createPaymentLink = async (data: PaymentLinkRequest): Promise<PaymentLinkResponse> => {
   try {
